@@ -1,0 +1,270 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+.logo-container {
+
+    display: flex;
+    justify-content: center;
+    border-top: solid goldenrod;
+    border-bottom: solid goldenrod;
+}
+
+.logo {
+    height: 7rem;
+    width: auto;
+
+
+
+}
+
+
+
+.backgrounds {
+
+    background-color: rgb(25, 26, 25);
+
+}
+
+.nav-link {
+    color: goldenrod;
+    transition: 0.3s;
+    border-radius: 20px;
+
+}
+
+.nav-link:hover {
+    background-color: goldenrod;
+    color: rgb(25, 26, 25);
+    transform: scale(1.1);
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.color-tipografia {
+
+    color: rgb(205, 190, 120);
+}
+
+.edicion-boton {
+    margin-top: 1rem;
+    text-decoration: none;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border: solid rgb(205, 190, 120);
+    border-radius: 20PX;
+    transition: 0.3s;
+}
+
+.edicion-boton:hover {
+    background-color: rgb(205, 190, 120);
+    color: rgb(25, 26, 25);
+    transform: scale(1.1);
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------Inicio footer-----------------------------------*/
+
+
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 3rem) 2rem;
+    grid-template-areas: "index ubicacion ."
+        "nosotros productos ."
+        " redes contacto ."
+        "copy copy copy";
+    background-color: rgb(25, 26, 25);
+    padding: 1.5rem;
+    text-align: center;
+    align-items: center;
+    border-top: solid goldenrod;
+    margin-top: 2rem;
+
+}
+
+.footer-index {
+    grid-area: index;
+}
+
+.footer-ubicacion {
+    grid-area: ubicacion;
+}
+
+.footer-nos {
+    grid-area: nosotros;
+}
+
+.footer-productos {
+    grid-area: productos;
+}
+
+.footer-redes {
+    grid-area: redes;
+}
+
+.footer-contact {
+    grid-area: contacto;
+}
+
+.cajacopy {
+    grid-area: copy;
+    margin-top: 40PX;
+
+
+}
+
+
+
+
+
+.grid-footer a {
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+
+.grid-footer a:hover {
+    background-color: #daa520;
+    transform: scale(1.1);
+    border-radius: 10px;
+    transition: 0.5s;
+    color: rgb(25, 26, 25);
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    width: auto;
+}
+
+.logoredes {
+    height: 50px;
+    width: auto;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .grid-footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr) 0.5fr;
+        grid-template-areas: "index ubicacion "
+            "nosotros productos "
+            " redes contacto "
+            "copy copy ";
+        padding: 1.5rem 0 .25rem 0;
+    }
+
+    .cajacopy {
+        padding: 0.25rem;
+    }
+}
+
+.copy {
+
+    color: goldenrod;
+
+
+
+}
+
+
+
+
+/*------------------------------------------Fin footer-----------------------------------*/
+
+/*------------------------------------------inicio productos-----------------------------------*/
+
+
+.estilo-h1{
+color: goldenrod;
+font-size: 2.3rem;
+
+
+}
+
+
+.cards {
+    margin: 1rem;
+
+
+}
+
+
+.boton-cards {
+
+    background-color: rgb(205, 190, 120);
+    color: rgb(25, 26, 25);
+    border: solid rgb(25, 26, 25);
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 0.5rem;
+
+
+}
+
+.boton-cards:hover {
+
+    transform: scale(1.1);
+    border-radius: 30px;
+    transition: 0.3s;
+    text-decoration: none;
+    background-color: rgb(59, 61, 59);
+    color: goldenrod;
+    border: solid goldenrod;
+
+}
+
+
+.body-card-style {
+
+    background-color: rgb(59, 61, 59);
+
+
+
+}
+
+.borde-card {
+
+    border: solid 10px rgb(59, 61, 59);
+    border-radius: 15px;
+
+}
+
+.tipografia-titulo-card {
+
+
+    color: goldenrod
+}
+
+
+.tipografia-card {
+
+    color: rgb(205, 190, 120);
+
+}
