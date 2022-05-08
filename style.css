@@ -36,6 +36,26 @@
 
 }
 
+
+@media only screen and (max-width: 768px) {
+
+    .nav-link {
+
+        border-bottom: solid 1px rgb(205, 190, 120);
+        border-radius: 0%;
+
+
+
+
+    }
+
+
+
+}
+
+
+
+
 .nav-link:hover {
     background-color: goldenrod;
     color: rgb(25, 26, 25);
@@ -44,6 +64,38 @@
     transition: 0.5s;
 
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    .nav-link:hover {
+
+        transform: scale(1);
+        border-radius: 0%;
+        transition: 0;
+
+
+
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .animate__zoomIn {
+
+        --animate-duration: 0s;
+
+
+    }
+
+
+
+}
+
 
 .color-tipografia {
 
@@ -73,6 +125,42 @@
 
 
 }
+
+@media only screen and (max-width: 768px) {
+
+    .estilo-hamburguesa {
+
+        border: solid 2px goldenrod;
+        border-radius: 3px;
+        border-radius: 10px;
+
+
+
+    }
+
+
+
+
+}
+
+
+
+.botones-hamburguesa {
+    display: flex;
+    justify-content: center;
+}
+
+
+.hamburguesa {
+
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: solid 3px gold;
+
+
+}
+
 
 
 
@@ -200,9 +288,9 @@
 /*------------------------------------------inicio productos-----------------------------------*/
 
 
-.estilo-h1{
-color: goldenrod;
-font-size: 2.3rem;
+.estilo-h1 {
+    color: goldenrod;
+    font-size: 2.3rem;
 
 
 }
@@ -266,5 +354,47 @@ font-size: 2.3rem;
 .tipografia-card {
 
     color: rgb(205, 190, 120);
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .estilo-h1 {
+
+        font-size: 1.5rem;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+
+}
+
+
+.cards-container {
+
+    display: flex;
+    justify-content: CENTER;
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .cards-container {
+
+        display: inline-block;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    
+
+
+
+    }
+
 
 }
